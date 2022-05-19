@@ -1,0 +1,40 @@
+.logo {
+  display: block;
+  @media screen and(min-width:768px) {
+    padding-left: 32px;
+  }
+  @media screen and(min-width:1280px) {
+    padding-left: 20px;
+  }
+  // padding-top: 37px;
+  // @media screen and(min-width:1200px) {
+  //   font-size: 26px;
+  //   line-height: 1.19;
+  // }
+}
+
+// .logo__img {
+//   width: 199px;
+//   height: 50px;
+// }
+
+// .logo__fp {
+//   color: var(--accent-color);
+// }
+// .header__logo {
+//   padding-top: 16px;
+//   padding-bottom: 16px;
+//   @media screen and(min-width:768px) {
+//     padding-top: 26px;
+//     padding-bottom: 26px;
+//   }
+// }
+// .footer__logo {
+//   margin-bottom: 20px;
+// }
+// .logo__sp--dark {
+//   color: #000000;
+// }
+// .logo__sp--inverse {
+//   color: var(--white-text-color);
+// }
