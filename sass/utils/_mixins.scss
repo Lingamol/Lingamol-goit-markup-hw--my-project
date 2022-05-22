@@ -1,0 +1,14 @@
+@mixin circle() {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: 20px;
+}
+@mixin circle2() {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: 20px;
+}
