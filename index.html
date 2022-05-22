@@ -63,6 +63,11 @@
               </li>
             </ul>
           </nav>
+          <button class="header-menu" type="button">
+           <svg class="header-menu__icon" width="20" height="12">
+              <use href="./images/icons/symbol-defs.svg#icon-Burger"></use>
+            </svg>
+          </button>
           <button class="header-but button" type="button">
             Buy now<svg class="header-but__icon" width="4" height="8">
               <use href="./images/icons/symbol-defs.svg#icon-Vector"></use>
@@ -107,7 +112,24 @@
             incididunt ut labore et
           </p>
           <a class="description__link" href="">
-            <img class="description__link-img"  src="./images/arrow-right.png" alt="указатель вправо " />
+            <picture>
+                <source
+                  srcset="./images/header/arrow-right@1x.png 1x, ./images/header/arrow-right@2x.png 2x"
+                  src="./images/header/arrow-right@1x.png"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="./images/header/arrow-right-tab@1x.png 1x, ./images/header/arrow-right-tab@2x.png 2x"
+                  src="./images/header/arrow-right-tab@1x.png"
+                  media="(min-width: 768px)"
+                />
+                <!-- <source
+                  srcset="./images/header/eco-milk-mob@1x.png 1x, ./images/header/eco-milk-mob@2x.png 2x"
+                  src="./images/header/eco-milk-mob@1x.png"
+                  media="(min-width: 320px)"
+                /> -->
+                <img class="description__link-img"  src="./images/header/arrow-right@1x.png" alt="arrow right " />
+              </picture>
           </a>
         </article>
         <div class="hero-decor"></div>
@@ -268,19 +290,90 @@
     <!-- main content -->
     <main class="main-content">
       <!-- section banner -->
-      <!-- <section class="banner section">
-        <div class="banner__overlay">
+      <section class="products section">
           <div class="container">
-            <div class="baner__content">
-              <h1 class="banner__title">
-                Эффективные решения <br />
-                для вашего бизнеса
-              </h1>
-              <button data-modal-open class="banner__button" type="button">Заказать услугу</button>
+            <div class="products__content">
+              <label class="products__label title" for="">100% natural</label>
+              <h1 class="products__title title">products</h1>
+              <ul class="products__list list">
+                <li class="products__item">
+                 <article class="product-card">
+                  <h3 class="product-card__title title">ice cream</h3>
+                  <p class="product-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                  <a href="product-card__link">
+                    <picture>
+                <source
+                  srcset="./images/products/arrow-right@1x.png 1x, ./images/products/arrow-right@2x.png 2x"
+                  src="./images/header/arrow-right@1x.png"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="./images/products/arrow-right-tab@1x.png 1x, ./images/products/arrow-right-tab@2x.png 2x"
+                  src="./images/products/arrow-right-tab@1x.png"
+                  media="(min-width: 768px)"
+                />
+                <!-- <source
+                  srcset="./images/header/eco-milk-mob@1x.png 1x, ./images/header/eco-milk-mob@2x.png 2x"
+                  src="./images/header/eco-milk-mob@1x.png"
+                  media="(min-width: 320px)"
+                /> -->
+                <img class="product-card__link-img link"  src="./images/products/arrow-right@1x.png" alt="arrow right " />
+              </picture></a>
+                </article>
+                </li>
+                <li class="products__item">
+                 <article class="product-card">
+                  <h3 class="product-card__title title">ice coffee</h3>
+                  <p class="product-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                  <a href="product-card__link"><picture>
+                <source
+                  srcset="./images/products/arrow-right@1x.png 1x, ./images/products/arrow-right@2x.png 2x"
+                  src="./images/header/arrow-right@1x.png"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="./images/products/arrow-right-tab@1x.png 1x, ./images/products/arrow-right-tab@2x.png 2x"
+                  src="./images/products/arrow-right-tab@1x.png"
+                  media="(min-width: 768px)"
+                />
+                <!-- <source
+                  srcset="./images/header/eco-milk-mob@1x.png 1x, ./images/header/eco-milk-mob@2x.png 2x"
+                  src="./images/header/eco-milk-mob@1x.png"
+                  media="(min-width: 320px)"
+                /> -->
+                <img class="product-card__link-img link"  src="./images/products/arrow-right@1x.png" alt="arrow right " />
+              </picture></a>
+                </article>
+                </li>
+                <li class="products__item">
+                 <article class="product-card"></article>
+                  <h3 class="product-card__title title">milkshakes</h3>
+                  <p class="product-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                  <a href="product-card__link"><picture>
+                <source
+                  srcset="./images/products/arrow-right@1x.png 1x, ./images/products/arrow-right@2x.png 2x"
+                  src="./images/header/arrow-right@1x.png"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="./images/products/arrow-right-tab@1x.png 1x, ./images/products/arrow-right-tab@2x.png 2x"
+                  src="./images/products/arrow-right-tab@1x.png"
+                  media="(min-width: 768px)"
+                />
+                <!-- <source
+                  srcset="./images/header/eco-milk-mob@1x.png 1x, ./images/header/eco-milk-mob@2x.png 2x"
+                  src="./images/header/eco-milk-mob@1x.png"
+                  media="(min-width: 320px)"
+                /> -->
+                <img class="product-card__link-img link"  src="./images/products/arrow-right@1x.png" alt="arrow right " />
+              </picture></a>
+                </article>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>-->
+      </section>
       <!-- section descriptions -->
       <!-- <section class="descriptions section">
         <div class="container">

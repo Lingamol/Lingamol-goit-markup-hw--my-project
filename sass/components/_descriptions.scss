@@ -1,13 +1,30 @@
 .description {
-  position: absolute;
-  top: 456px;
-  left: 229px;
+  display: none;
+  @media screen and(min-width:480px) {
+    display: block;
+    position: absolute;
+    top: 287px;
+    left: 184px;
+    z-index: 1;
+  }
+  @media screen and(min-width:1200px) {
+    top: 456px;
+    left: 229px;
+  }
 }
 .description-text {
-  max-width: 200px;
-  font-size: 14px;
-  line-height: 1.4;
-  margin-bottom: 20px;
+  @media screen and(min-width:480px) {
+    max-width: 114px;
+    font-size: 8px;
+    line-height: 1.5;
+    margin-bottom: 7px;
+  }
+  @media screen and(min-width:1200px) {
+    max-width: 200px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
 }
 .description__link {
 }

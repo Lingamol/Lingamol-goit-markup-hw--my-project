@@ -1,0 +1,126 @@
+.product-card {
+}
+.product-card__title {
+  font-size: 20px;
+  line-height: 23px;
+  //   letter-spacing: 0.04em;
+  margin-bottom: 70px;
+  //   &::before {
+  //     content: '';
+  //     width: 280px;
+  //     height: 280px;
+  //     position: absolute;
+  //     left: 0;
+  //     top: -150px;
+  //     &:nth-child(1) {
+  //       background-image: url(../../images/products/home-pic1mob@1x.png);
+  //       background-repeat: no-repeat;
+  //       background-position: center;
+  //       background-size: cover;
+  //       @media screen and (min-device-pixel-ratio: 2),
+  //         screen and (min-resolution: 192dpi),
+  //         screen and (min-resolution: 2dppx) {
+  //         background-image: url(../../images/products/home-pic1mob@2x.png);
+  //       }
+
+  //       @media screen and(min-width:768px) {
+  //         background-image: url(../../images/products/home-pic1tab@1x.png);
+  //         @media screen and (min-device-pixel-ratio: 2),
+  //           screen and (min-resolution: 192dpi),
+  //           screen and (min-resolution: 2dppx) {
+  //           background-image: url(../../images/products/home-pic1tab@2x.png);
+  //         }
+  //       }
+  //       @media screen and(min-width:1280px) {
+  //         background-image: url(../../images/products/home-pic1@1x.png);
+  //         @media screen and (min-device-pixel-ratio: 2),
+  //           screen and (min-resolution: 192dpi),
+  //           screen and (min-resolution: 2dppx) {
+  //           background-image: url(../../images/products/home-pic1@2x.png);
+  //         }
+  //       }
+  //     }
+  //     &:nth-child(2) {
+  //       background-image: url(../../images/products/home-pic2mob@1x.png);
+  //       background-repeat: no-repeat;
+  //       background-position: center;
+  //       background-size: cover;
+  //       @media screen and (min-device-pixel-ratio: 2),
+  //         screen and (min-resolution: 192dpi),
+  //         screen and (min-resolution: 2dppx) {
+  //         background-image: url(../../images/products/home-pic2mob@2x.png);
+  //       }
+
+  //       @media screen and(min-width:768px) {
+  //         background-image: url(../../images/products/home-pic2tab@1x.png);
+  //         @media screen and (min-device-pixel-ratio: 2),
+  //           screen and (min-resolution: 192dpi),
+  //           screen and (min-resolution: 2dppx) {
+  //           background-image: url(../../images/products/home-pic2tab@2x.png);
+  //         }
+  //       }
+  //       @media screen and(min-width:1280px) {
+  //         background-image: url(../../images/products/home-pic2@1x.png);
+  //         @media screen and (min-device-pixel-ratio: 2),
+  //           screen and (min-resolution: 192dpi),
+  //           screen and (min-resolution: 2dppx) {
+  //           background-image: url(../../images/products/home-pic2@2x.png);
+  //         }
+  //       }
+  //     }
+  //     &:nth-child(3) {
+  //       background-image: url(../../images/products/home-pic3mob@1x.png);
+  //       background-repeat: no-repeat;
+  //       background-position: center;
+  //       background-size: cover;
+  //       @media screen and (min-device-pixel-ratio: 2),
+  //         screen and (min-resolution: 192dpi),
+  //         screen and (min-resolution: 2dppx) {
+  //         background-image: url(../../images/products/home-pic3mob@2x.png);
+  //       }
+
+  //       @media screen and(min-width:768px) {
+  //         background-image: url(../../images/products/home-pic3tab@1x.png);
+  //         @media screen and (min-device-pixel-ratio: 2),
+  //           screen and (min-resolution: 192dpi),
+  //           screen and (min-resolution: 2dppx) {
+  //           background-image: url(../../images/products/home-pic3tab@2x.png);
+  //         }
+  //       }
+  //       @media screen and(min-width:1280px) {
+  //         background-image: url(../../images/products/home-pic3@1x.png);
+  //         @media screen and (min-device-pixel-ratio: 2),
+  //           screen and (min-resolution: 192dpi),
+  //           screen and (min-resolution: 2dppx) {
+  //           background-image: url(../../images/products/home-pic3@2x.png);
+  //         }
+  //       }
+  //     }
+  //   margin-right: auto;
+  //   margin-left: auto;
+  /* outline: 4px solid green; */
+  //   }
+  &::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+  }
+}
+.title {
+}
+.product-card__text {
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 124px;
+  margin-bottom: 32px;
+}
+.product-card__link-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+.link {
+}
